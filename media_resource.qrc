@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/UI_Power.png</file>
+        <file>images/Settings_Icon.png</file>
+    </qresource>
+</RCC>
