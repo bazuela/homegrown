@@ -31,11 +31,15 @@ LIBS += -L$$[QT_SYSROOT]/usr/local/lib -lwiringPi
 SOURCES += main.cpp\
         mainwindow.cpp \
     humiditydisplay.cpp \
-    rgb_led.cpp
+    rgb_led.cpp \
+    dht11_sensor.cpp \
+    pins.cpp
 
 HEADERS  += mainwindow.h \
     humiditydisplay.h \
-    rgb_led.h
+    rgb_led.h \
+    dht11_sensor.h \
+    pins.h
 
 FORMS    += mainwindow.ui \
     humiditydisplay.ui

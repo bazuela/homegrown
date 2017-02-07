@@ -10,6 +10,14 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(ui->pushButton_Power, SIGNAL(clicked(bool)), this, SLOT(close()));
     connect(ui->pushButton_Settings, SIGNAL(clicked(bool)), this, SLOT(QueColorDemo()));
+    DHT11_Sensor dht11Sensor;
+    connect(dht11Sensor, SIGNAL(dht11Sensor.StatusReturned()), this, SLOT(S))
+}
+
+void MainWindow::ShowStatus(QString Status)
+{
+    ui->statusBar->showMessage(Status);
+
 }
 
 void MainWindow::QueColorDemo()
